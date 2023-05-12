@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+
+}
+#b1{
+    background-color: rgb(228, 89, 8);
+    padding: 10px;
+    font-weight: 900;
+}
+#vid,#vid2{
+    width: 300px;
+    height: 250px;
+    border-color: black;
+    border-width: 25px;
+    border-style: double;
+    background-color: darkkhaki;
+}

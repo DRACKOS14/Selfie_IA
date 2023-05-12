@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selfie con IA</title>
+    <link rel="stylesheet" href="style.CSS">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+    <center>
+        <h1 style="color: rgb(178, 27, 19);">Tomate una Selfie muy especial</h1>
+        <p></p>
+        <h3 style="color: darkblue;">Aceptar permisos para usar microfono (por favor)</h3>
+        <h2>Di Whisky</h2>
+        <p></p>
+        <h4>Tu salida de voz</h4>
+        <textarea id="areatext" readonly="true"></textarea>
+        <p></p>
+        <h2>Presione el botón para comenzar</h2>
+        <p></p>
+        <button id="b1" onclick="clickon()">Tomar Selfie</button>
+        <p></p>
+        <h2>Aqui se ve tu camara</h2>
+        <p></p>
+        <div id="vid"></div>
+        <p></p>
+        <h2>Aqui se ve tu Selfie</h2>
+        <p></p>
+        <div id="vid2"></div>
+        <a href="" id="di" download="foto.png"></a>
+    </center>
+    <script src="main.JS"></script>
+</body>
+</html>
